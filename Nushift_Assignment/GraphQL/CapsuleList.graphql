@@ -1,0 +1,15 @@
+query Capsule {
+  capsules {
+    status
+    type
+    missions {
+      name
+      flight
+    }
+    id
+    dragon {
+      name
+      id
+    }
+  }
+}

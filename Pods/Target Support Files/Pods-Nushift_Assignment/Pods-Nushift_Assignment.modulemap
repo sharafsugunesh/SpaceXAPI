@@ -1,0 +1,6 @@
+framework module Pods_Nushift_Assignment {
+  umbrella header "Pods-Nushift_Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
