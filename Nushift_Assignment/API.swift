@@ -130,6 +130,7 @@ public final class CapsuleQuery: GraphQLQuery {
         }
       }
 
+      @available(*, deprecated, message: "This is not available in the REST API after MongoDB has been deprecated")
       public var dragon: Dragon? {
         get {
           return (resultMap["dragon"] as? ResultMap).flatMap { Dragon(unsafeResultMap: $0) }
@@ -800,11 +801,11 @@ public final class ShipQuery: GraphQLQuery {
   }
 }
 
-public final class ShipsListQuery: GraphQLQuery {
+public final class ShipsQuery: GraphQLQuery {
   /// The raw GraphQL definition of this operation.
   public let operationDefinition: String =
     """
-    query ShipsList {
+    query Ships {
       ships {
         __typename
         abs
@@ -816,19 +817,9 @@ public final class ShipsListQuery: GraphQLQuery {
         id
         image
         imo
-        missions {
-          __typename
-          flight
-          name
-        }
         mmsi
         model
         name
-        position {
-          __typename
-          latitude
-          longitude
-        }
         roles
         speed_kn
         status
@@ -842,7 +833,7 @@ public final class ShipsListQuery: GraphQLQuery {
     }
     """
 
-  public let operationName: String = "ShipsList"
+  public let operationName: String = "Ships"
 
   public init() {
   }
@@ -890,11 +881,9 @@ public final class ShipsListQuery: GraphQLQuery {
           GraphQLField("id", type: .scalar(GraphQLID.self)),
           GraphQLField("image", type: .scalar(String.self)),
           GraphQLField("imo", type: .scalar(Int.self)),
-          GraphQLField("missions", type: .list(.object(Mission.selections))),
           GraphQLField("mmsi", type: .scalar(Int.self)),
           GraphQLField("model", type: .scalar(String.self)),
           GraphQLField("name", type: .scalar(String.self)),
-          GraphQLField("position", type: .object(Position.selections)),
           GraphQLField("roles", type: .list(.scalar(String.self))),
           GraphQLField("speed_kn", type: .scalar(Double.self)),
           GraphQLField("status", type: .scalar(String.self)),
@@ -913,8 +902,8 @@ public final class ShipsListQuery: GraphQLQuery {
         self.resultMap = unsafeResultMap
       }
 
-      public init(abs: Int? = nil, active: Bool? = nil, attemptedLandings: Int? = nil, `class`: Int? = nil, courseDeg: Int? = nil, homePort: String? = nil, id: GraphQLID? = nil, image: String? = nil, imo: Int? = nil, missions: [Mission?]? = nil, mmsi: Int? = nil, model: String? = nil, name: String? = nil, position: Position? = nil, roles: [String?]? = nil, speedKn: Double? = nil, status: String? = nil, successfulLandings: Int? = nil, type: String? = nil, url: String? = nil, weightKg: Int? = nil, weightLbs: Int? = nil, yearBuilt: Int? = nil) {
-        self.init(unsafeResultMap: ["__typename": "Ship", "abs": abs, "active": active, "attempted_landings": attemptedLandings, "class": `class`, "course_deg": courseDeg, "home_port": homePort, "id": id, "image": image, "imo": imo, "missions": missions.flatMap { (value: [Mission?]) -> [ResultMap?] in value.map { (value: Mission?) -> ResultMap? in value.flatMap { (value: Mission) -> ResultMap in value.resultMap } } }, "mmsi": mmsi, "model": model, "name": name, "position": position.flatMap { (value: Position) -> ResultMap in value.resultMap }, "roles": roles, "speed_kn": speedKn, "status": status, "successful_landings": successfulLandings, "type": type, "url": url, "weight_kg": weightKg, "weight_lbs": weightLbs, "year_built": yearBuilt])
+      public init(abs: Int? = nil, active: Bool? = nil, attemptedLandings: Int? = nil, `class`: Int? = nil, courseDeg: Int? = nil, homePort: String? = nil, id: GraphQLID? = nil, image: String? = nil, imo: Int? = nil, mmsi: Int? = nil, model: String? = nil, name: String? = nil, roles: [String?]? = nil, speedKn: Double? = nil, status: String? = nil, successfulLandings: Int? = nil, type: String? = nil, url: String? = nil, weightKg: Int? = nil, weightLbs: Int? = nil, yearBuilt: Int? = nil) {
+        self.init(unsafeResultMap: ["__typename": "Ship", "abs": abs, "active": active, "attempted_landings": attemptedLandings, "class": `class`, "course_deg": courseDeg, "home_port": homePort, "id": id, "image": image, "imo": imo, "mmsi": mmsi, "model": model, "name": name, "roles": roles, "speed_kn": speedKn, "status": status, "successful_landings": successfulLandings, "type": type, "url": url, "weight_kg": weightKg, "weight_lbs": weightLbs, "year_built": yearBuilt])
       }
 
       public var __typename: String {
@@ -1007,15 +996,6 @@ public final class ShipsListQuery: GraphQLQuery {
         }
       }
 
-      public var missions: [Mission?]? {
-        get {
-          return (resultMap["missions"] as? [ResultMap?]).flatMap { (value: [ResultMap?]) -> [Mission?] in value.map { (value: ResultMap?) -> Mission? in value.flatMap { (value: ResultMap) -> Mission in Mission(unsafeResultMap: value) } } }
-        }
-        set {
-          resultMap.updateValue(newValue.flatMap { (value: [Mission?]) -> [ResultMap?] in value.map { (value: Mission?) -> ResultMap? in value.flatMap { (value: Mission) -> ResultMap in value.resultMap } } }, forKey: "missions")
-        }
-      }
-
       public var mmsi: Int? {
         get {
           return resultMap["mmsi"] as? Int
@@ -1040,15 +1020,6 @@ public final class ShipsListQuery: GraphQLQuery {
         }
         set {
           resultMap.updateValue(newValue, forKey: "name")
-        }
-      }
-
-      public var position: Position? {
-        get {
-          return (resultMap["position"] as? ResultMap).flatMap { Position(unsafeResultMap: $0) }
-        }
-        set {
-          resultMap.updateValue(newValue?.resultMap, forKey: "position")
         }
       }
 
@@ -1130,104 +1101,6 @@ public final class ShipsListQuery: GraphQLQuery {
         }
         set {
           resultMap.updateValue(newValue, forKey: "year_built")
-        }
-      }
-
-      public struct Mission: GraphQLSelectionSet {
-        public static let possibleTypes: [String] = ["ShipMission"]
-
-        public static var selections: [GraphQLSelection] {
-          return [
-            GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
-            GraphQLField("flight", type: .scalar(String.self)),
-            GraphQLField("name", type: .scalar(String.self)),
-          ]
-        }
-
-        public private(set) var resultMap: ResultMap
-
-        public init(unsafeResultMap: ResultMap) {
-          self.resultMap = unsafeResultMap
-        }
-
-        public init(flight: String? = nil, name: String? = nil) {
-          self.init(unsafeResultMap: ["__typename": "ShipMission", "flight": flight, "name": name])
-        }
-
-        public var __typename: String {
-          get {
-            return resultMap["__typename"]! as! String
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "__typename")
-          }
-        }
-
-        public var flight: String? {
-          get {
-            return resultMap["flight"] as? String
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "flight")
-          }
-        }
-
-        public var name: String? {
-          get {
-            return resultMap["name"] as? String
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "name")
-          }
-        }
-      }
-
-      public struct Position: GraphQLSelectionSet {
-        public static let possibleTypes: [String] = ["ShipLocation"]
-
-        public static var selections: [GraphQLSelection] {
-          return [
-            GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
-            GraphQLField("latitude", type: .scalar(Double.self)),
-            GraphQLField("longitude", type: .scalar(Double.self)),
-          ]
-        }
-
-        public private(set) var resultMap: ResultMap
-
-        public init(unsafeResultMap: ResultMap) {
-          self.resultMap = unsafeResultMap
-        }
-
-        public init(latitude: Double? = nil, longitude: Double? = nil) {
-          self.init(unsafeResultMap: ["__typename": "ShipLocation", "latitude": latitude, "longitude": longitude])
-        }
-
-        public var __typename: String {
-          get {
-            return resultMap["__typename"]! as! String
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "__typename")
-          }
-        }
-
-        public var latitude: Double? {
-          get {
-            return resultMap["latitude"] as? Double
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "latitude")
-          }
-        }
-
-        public var longitude: Double? {
-          get {
-            return resultMap["longitude"] as? Double
-          }
-          set {
-            resultMap.updateValue(newValue, forKey: "longitude")
-          }
         }
       }
     }

@@ -1,4 +1,4 @@
-query ShipsList {
+query Ships {
   ships {
     abs
     active
@@ -9,17 +9,9 @@ query ShipsList {
     id
     image
     imo
-    missions {
-      flight
-      name
-    }
     mmsi
     model
     name
-    position {
-      latitude
-      longitude
-    }
     roles
     speed_kn
     status

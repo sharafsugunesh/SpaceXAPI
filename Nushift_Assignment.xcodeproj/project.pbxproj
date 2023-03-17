@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		759598ECFB37C2A3A1C45FFC /* Pods_Nushift_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F67879D622A09D69DB1EA1E /* Pods_Nushift_Assignment.framework */; };
+		B11FA99629C2C36E0043A644 /* Ship.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B11FA99529C2C36E0043A644 /* Ship.graphql */; };
+		B11FA99829C2C3A40043A644 /* Ships.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B11FA99729C2C3A40043A644 /* Ships.graphql */; };
+		B11FA9A229C41BE30043A644 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9A129C41BE30043A644 /* API.swift */; };
 		B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55A729C10C9C001DEA41 /* AppDelegate.swift */; };
 		B19F55AA29C10C9C001DEA41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55A929C10C9C001DEA41 /* SceneDelegate.swift */; };
 		B19F55AC29C10C9C001DEA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55AB29C10C9C001DEA41 /* ViewController.swift */; };
@@ -15,18 +18,19 @@
 		B19F55B129C10C9F001DEA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19F55B029C10C9F001DEA41 /* Assets.xcassets */; };
 		B19F55B429C10C9F001DEA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19F55B229C10C9F001DEA41 /* LaunchScreen.storyboard */; };
 		B19F55C129C10D8F001DEA41 /* CapsuleList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B19F55BE29C10D8F001DEA41 /* CapsuleList.graphql */; };
-		B19F55C229C10D8F001DEA41 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55BF29C10D8F001DEA41 /* API.swift */; };
 		B19F55C329C10D8F001DEA41 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B19F55C029C10D8F001DEA41 /* LaunchList.graphql */; };
 		B19F55C629C10DEB001DEA41 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B19F55C529C10DEB001DEA41 /* schema.json */; };
 		B19F55C829C10E1C001DEA41 /* ApolloNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55C729C10E1C001DEA41 /* ApolloNetworkHelper.swift */; };
-		B19F55CC29C111B7001DEA41 /* ShipsList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B19F55CB29C111B7001DEA41 /* ShipsList.graphql */; };
-		B19F55CE29C11303001DEA41 /* Ship.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B19F55CD29C11303001DEA41 /* Ship.graphql */; };
+		B1AD6DD629C2C23A00ADB270 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD6DD529C2C23A00ADB270 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		013F364CC7987D2A78C0D3B3 /* Pods-Nushift_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nushift_Assignment.release.xcconfig"; path = "Target Support Files/Pods-Nushift_Assignment/Pods-Nushift_Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		6746CDB3EAC397E37EA1D3F1 /* Pods-Nushift_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nushift_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Nushift_Assignment/Pods-Nushift_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		9F67879D622A09D69DB1EA1E /* Pods_Nushift_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nushift_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11FA99529C2C36E0043A644 /* Ship.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ship.graphql; sourceTree = "<group>"; };
+		B11FA99729C2C3A40043A644 /* Ships.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ships.graphql; sourceTree = "<group>"; };
+		B11FA9A129C41BE30043A644 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		B19F55A429C10C9C001DEA41 /* Nushift_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nushift_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F55A729C10C9C001DEA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19F55A929C10C9C001DEA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,12 +40,10 @@
 		B19F55B329C10C9F001DEA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B19F55B529C10C9F001DEA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B19F55BE29C10D8F001DEA41 /* CapsuleList.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CapsuleList.graphql; sourceTree = "<group>"; };
-		B19F55BF29C10D8F001DEA41 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		B19F55C029C10D8F001DEA41 /* LaunchList.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
 		B19F55C529C10DEB001DEA41 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		B19F55C729C10E1C001DEA41 /* ApolloNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApolloNetworkHelper.swift; path = "../New Group/ApolloNetworkHelper.swift"; sourceTree = "<group>"; };
-		B19F55CB29C111B7001DEA41 /* ShipsList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ShipsList.graphql; sourceTree = "<group>"; };
-		B19F55CD29C11303001DEA41 /* Ship.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ship.graphql; sourceTree = "<group>"; };
+		B1AD6DD529C2C23A00ADB270 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,8 @@
 		B19F55A629C10C9C001DEA41 /* Nushift_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B11FA9A129C41BE30043A644 /* API.swift */,
+				B1AD6DD429C2C22B00ADB270 /* ViewModel */,
 				B19F55CA29C10F9D001DEA41 /* Network */,
 				B19F55C929C10E6F001DEA41 /* ViewController */,
 				B19F55C529C10DEB001DEA41 /* schema.json */,
@@ -102,11 +106,10 @@
 		B19F55BD29C10D33001DEA41 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				B19F55BF29C10D8F001DEA41 /* API.swift */,
+				B11FA99729C2C3A40043A644 /* Ships.graphql */,
+				B11FA99529C2C36E0043A644 /* Ship.graphql */,
 				B19F55BE29C10D8F001DEA41 /* CapsuleList.graphql */,
 				B19F55C029C10D8F001DEA41 /* LaunchList.graphql */,
-				B19F55CB29C111B7001DEA41 /* ShipsList.graphql */,
-				B19F55CD29C11303001DEA41 /* Ship.graphql */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				B19F55C729C10E1C001DEA41 /* ApolloNetworkHelper.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B1AD6DD429C2C22B00ADB270 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1AD6DD529C2C23A00ADB270 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FDC6EDC0562A8855346C729C /* Pods */ = {
@@ -198,11 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19F55C329C10D8F001DEA41 /* LaunchList.graphql in Resources */,
-				B19F55CC29C111B7001DEA41 /* ShipsList.graphql in Resources */,
+				B11FA99829C2C3A40043A644 /* Ships.graphql in Resources */,
 				B19F55B429C10C9F001DEA41 /* LaunchScreen.storyboard in Resources */,
 				B19F55B129C10C9F001DEA41 /* Assets.xcassets in Resources */,
 				B19F55AF29C10C9C001DEA41 /* Main.storyboard in Resources */,
-				B19F55CE29C11303001DEA41 /* Ship.graphql in Resources */,
+				B11FA99629C2C36E0043A644 /* Ship.graphql in Resources */,
 				B19F55C629C10DEB001DEA41 /* schema.json in Resources */,
 				B19F55C129C10D8F001DEA41 /* CapsuleList.graphql in Resources */,
 			);
@@ -277,9 +288,10 @@
 			files = (
 				B19F55AC29C10C9C001DEA41 /* ViewController.swift in Sources */,
 				B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */,
-				B19F55C229C10D8F001DEA41 /* API.swift in Sources */,
 				B19F55AA29C10C9C001DEA41 /* SceneDelegate.swift in Sources */,
+				B1AD6DD629C2C23A00ADB270 /* ViewModel.swift in Sources */,
 				B19F55C829C10E1C001DEA41 /* ApolloNetworkHelper.swift in Sources */,
+				B11FA9A229C41BE30043A644 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

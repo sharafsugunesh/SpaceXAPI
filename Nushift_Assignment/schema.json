@@ -13,11 +13,11 @@
       {
         "kind": "OBJECT",
         "name": "Address",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "address",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -29,7 +29,7 @@
           },
           {
             "name": "city",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -41,7 +41,7 @@
           },
           {
             "name": "state",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -70,23 +70,23 @@
       {
         "kind": "OBJECT",
         "name": "Capsule",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "dragon",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
               "name": "Dragon",
               "ofType": null
             },
-            "isDeprecated": false,
-            "deprecationReason": null
+            "isDeprecated": true,
+            "deprecationReason": "This is not available in the REST API after MongoDB has been deprecated"
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -98,7 +98,7 @@
           },
           {
             "name": "landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -110,7 +110,7 @@
           },
           {
             "name": "missions",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -126,7 +126,7 @@
           },
           {
             "name": "original_launch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -138,7 +138,7 @@
           },
           {
             "name": "reuse_count",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -150,7 +150,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -162,7 +162,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -201,11 +201,11 @@
       {
         "kind": "OBJECT",
         "name": "CapsuleMission",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -217,7 +217,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -236,12 +236,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "CapsulesFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -251,7 +251,7 @@
           },
           {
             "name": "landings",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -261,7 +261,7 @@
           },
           {
             "name": "mission",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -271,7 +271,7 @@
           },
           {
             "name": "original_launch",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -281,7 +281,7 @@
           },
           {
             "name": "reuse_count",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -291,7 +291,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -301,7 +301,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -317,11 +317,11 @@
       {
         "kind": "OBJECT",
         "name": "Core",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "asds_attempts",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -333,7 +333,7 @@
           },
           {
             "name": "asds_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -345,7 +345,7 @@
           },
           {
             "name": "block",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -357,7 +357,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -369,7 +369,7 @@
           },
           {
             "name": "missions",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -385,7 +385,7 @@
           },
           {
             "name": "original_launch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -397,7 +397,7 @@
           },
           {
             "name": "reuse_count",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -409,7 +409,7 @@
           },
           {
             "name": "rtls_attempts",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -421,7 +421,7 @@
           },
           {
             "name": "rtls_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -433,7 +433,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -445,7 +445,7 @@
           },
           {
             "name": "water_landing",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -474,11 +474,11 @@
       {
         "kind": "OBJECT",
         "name": "CoreMission",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -490,7 +490,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -509,12 +509,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "CoresFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "asds_attempts",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -524,7 +524,7 @@
           },
           {
             "name": "asds_landings",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -534,7 +534,7 @@
           },
           {
             "name": "block",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -544,7 +544,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -554,7 +554,7 @@
           },
           {
             "name": "missions",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -564,7 +564,7 @@
           },
           {
             "name": "original_launch",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -574,7 +574,7 @@
           },
           {
             "name": "reuse_count",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -584,7 +584,7 @@
           },
           {
             "name": "rtls_attempts",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -594,7 +594,7 @@
           },
           {
             "name": "rtls_landings",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -604,7 +604,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -614,7 +614,7 @@
           },
           {
             "name": "water_landing",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -630,7 +630,7 @@
       {
         "kind": "SCALAR",
         "name": "Date",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": null,
         "interfaces": null,
@@ -640,11 +640,11 @@
       {
         "kind": "OBJECT",
         "name": "Distance",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "feet",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -656,7 +656,7 @@
           },
           {
             "name": "meters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -685,11 +685,11 @@
       {
         "kind": "OBJECT",
         "name": "Dragon",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "active",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -701,7 +701,7 @@
           },
           {
             "name": "crew_capacity",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -713,7 +713,7 @@
           },
           {
             "name": "description",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -725,7 +725,7 @@
           },
           {
             "name": "diameter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -737,7 +737,7 @@
           },
           {
             "name": "dry_mass_kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -749,7 +749,7 @@
           },
           {
             "name": "dry_mass_lb",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -761,7 +761,7 @@
           },
           {
             "name": "first_flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -773,7 +773,7 @@
           },
           {
             "name": "heat_shield",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -785,7 +785,7 @@
           },
           {
             "name": "height_w_trunk",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -797,7 +797,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -809,7 +809,7 @@
           },
           {
             "name": "launch_payload_mass",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -821,7 +821,7 @@
           },
           {
             "name": "launch_payload_vol",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -833,7 +833,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -845,7 +845,7 @@
           },
           {
             "name": "orbit_duration_yr",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -857,7 +857,7 @@
           },
           {
             "name": "pressurized_capsule",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -869,7 +869,7 @@
           },
           {
             "name": "return_payload_mass",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -881,7 +881,7 @@
           },
           {
             "name": "return_payload_vol",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -893,7 +893,7 @@
           },
           {
             "name": "sidewall_angle_deg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -905,7 +905,7 @@
           },
           {
             "name": "thrusters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -921,7 +921,7 @@
           },
           {
             "name": "trunk",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -933,7 +933,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -945,7 +945,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -964,11 +964,11 @@
       {
         "kind": "OBJECT",
         "name": "DragonHeatShield",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "dev_partner",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -980,7 +980,7 @@
           },
           {
             "name": "material",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -992,7 +992,7 @@
           },
           {
             "name": "size_meters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1004,7 +1004,7 @@
           },
           {
             "name": "temp_degrees",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1023,11 +1023,11 @@
       {
         "kind": "OBJECT",
         "name": "DragonPressurizedCapsule",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "payload_volume",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1046,11 +1046,11 @@
       {
         "kind": "OBJECT",
         "name": "DragonThrust",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "amount",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1062,7 +1062,7 @@
           },
           {
             "name": "fuel_1",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1074,7 +1074,7 @@
           },
           {
             "name": "fuel_2",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1086,7 +1086,7 @@
           },
           {
             "name": "pods",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1098,7 +1098,7 @@
           },
           {
             "name": "thrust",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1110,7 +1110,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1129,11 +1129,11 @@
       {
         "kind": "OBJECT",
         "name": "DragonTrunk",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "cargo",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1145,7 +1145,7 @@
           },
           {
             "name": "trunk_volume",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1164,11 +1164,11 @@
       {
         "kind": "OBJECT",
         "name": "DragonTrunkCargo",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "solar_array",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1180,7 +1180,7 @@
           },
           {
             "name": "unpressurized_cargo",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1199,11 +1199,11 @@
       {
         "kind": "OBJECT",
         "name": "Force",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "kN",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1215,7 +1215,7 @@
           },
           {
             "name": "lbf",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1234,11 +1234,11 @@
       {
         "kind": "OBJECT",
         "name": "HistoriesResult",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -1254,7 +1254,7 @@
           },
           {
             "name": "result",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1273,11 +1273,11 @@
       {
         "kind": "OBJECT",
         "name": "History",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "details",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1289,7 +1289,7 @@
           },
           {
             "name": "event_date_unix",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1301,7 +1301,7 @@
           },
           {
             "name": "event_date_utc",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1313,7 +1313,7 @@
           },
           {
             "name": "flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1325,7 +1325,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1337,7 +1337,7 @@
           },
           {
             "name": "links",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1349,7 +1349,7 @@
           },
           {
             "name": "title",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1368,12 +1368,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "HistoryFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "end",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -1383,7 +1383,7 @@
           },
           {
             "name": "flight_number",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -1393,7 +1393,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -1403,7 +1403,7 @@
           },
           {
             "name": "start",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -1419,11 +1419,11 @@
       {
         "kind": "OBJECT",
         "name": "Info",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "ceo",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1435,7 +1435,7 @@
           },
           {
             "name": "coo",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1447,7 +1447,7 @@
           },
           {
             "name": "cto",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1459,7 +1459,7 @@
           },
           {
             "name": "cto_propulsion",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1471,7 +1471,7 @@
           },
           {
             "name": "employees",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1483,7 +1483,7 @@
           },
           {
             "name": "founded",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1495,7 +1495,7 @@
           },
           {
             "name": "founder",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1507,7 +1507,7 @@
           },
           {
             "name": "headquarters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1519,7 +1519,7 @@
           },
           {
             "name": "launch_sites",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1531,7 +1531,7 @@
           },
           {
             "name": "links",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1543,7 +1543,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1555,7 +1555,7 @@
           },
           {
             "name": "summary",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1567,7 +1567,7 @@
           },
           {
             "name": "test_sites",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1579,7 +1579,7 @@
           },
           {
             "name": "valuation",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1591,7 +1591,7 @@
           },
           {
             "name": "vehicles",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1610,11 +1610,11 @@
       {
         "kind": "OBJECT",
         "name": "InfoLinks",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "elon_twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1626,7 +1626,7 @@
           },
           {
             "name": "flickr",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1638,7 +1638,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1650,7 +1650,7 @@
           },
           {
             "name": "website",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1669,11 +1669,11 @@
       {
         "kind": "OBJECT",
         "name": "Landpad",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "attempted_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1685,7 +1685,7 @@
           },
           {
             "name": "details",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1697,7 +1697,7 @@
           },
           {
             "name": "full_name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1709,7 +1709,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1721,7 +1721,7 @@
           },
           {
             "name": "landing_type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1733,7 +1733,7 @@
           },
           {
             "name": "location",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1745,7 +1745,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1757,7 +1757,7 @@
           },
           {
             "name": "successful_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1769,7 +1769,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1788,11 +1788,11 @@
       {
         "kind": "OBJECT",
         "name": "Launch",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "details",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1804,7 +1804,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1816,7 +1816,7 @@
           },
           {
             "name": "is_tentative",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1828,7 +1828,7 @@
           },
           {
             "name": "launch_date_local",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1840,7 +1840,7 @@
           },
           {
             "name": "launch_date_unix",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1852,7 +1852,7 @@
           },
           {
             "name": "launch_date_utc",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1864,7 +1864,7 @@
           },
           {
             "name": "launch_site",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1876,7 +1876,7 @@
           },
           {
             "name": "launch_success",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1888,7 +1888,7 @@
           },
           {
             "name": "launch_year",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1900,7 +1900,7 @@
           },
           {
             "name": "links",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1912,7 +1912,7 @@
           },
           {
             "name": "mission_id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -1928,7 +1928,7 @@
           },
           {
             "name": "mission_name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1940,7 +1940,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -1952,7 +1952,7 @@
           },
           {
             "name": "ships",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -1968,7 +1968,7 @@
           },
           {
             "name": "static_fire_date_unix",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1980,7 +1980,7 @@
           },
           {
             "name": "static_fire_date_utc",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -1992,7 +1992,7 @@
           },
           {
             "name": "telemetry",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2004,7 +2004,7 @@
           },
           {
             "name": "tentative_max_precision",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2016,7 +2016,7 @@
           },
           {
             "name": "upcoming",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2035,12 +2035,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "LaunchFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "apoapsis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2050,7 +2050,7 @@
           },
           {
             "name": "block",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -2060,7 +2060,7 @@
           },
           {
             "name": "cap_serial",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2070,7 +2070,7 @@
           },
           {
             "name": "capsule_reuse",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2080,7 +2080,7 @@
           },
           {
             "name": "core_flight",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -2090,7 +2090,7 @@
           },
           {
             "name": "core_reuse",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2100,7 +2100,7 @@
           },
           {
             "name": "core_serial",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2110,7 +2110,7 @@
           },
           {
             "name": "customer",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2120,7 +2120,7 @@
           },
           {
             "name": "eccentricity",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2130,7 +2130,7 @@
           },
           {
             "name": "end",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -2140,7 +2140,7 @@
           },
           {
             "name": "epoch",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -2150,7 +2150,7 @@
           },
           {
             "name": "fairings_recovered",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2160,7 +2160,7 @@
           },
           {
             "name": "fairings_recovery_attempt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2170,7 +2170,7 @@
           },
           {
             "name": "fairings_reuse",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2180,7 +2180,7 @@
           },
           {
             "name": "fairings_reused",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2190,7 +2190,7 @@
           },
           {
             "name": "fairings_ship",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2200,7 +2200,7 @@
           },
           {
             "name": "gridfins",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2210,7 +2210,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -2220,7 +2220,7 @@
           },
           {
             "name": "inclination_deg",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2230,7 +2230,7 @@
           },
           {
             "name": "land_success",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2240,7 +2240,7 @@
           },
           {
             "name": "landing_intent",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2250,7 +2250,7 @@
           },
           {
             "name": "landing_type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2260,7 +2260,7 @@
           },
           {
             "name": "landing_vehicle",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2270,7 +2270,7 @@
           },
           {
             "name": "launch_date_local",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -2280,7 +2280,7 @@
           },
           {
             "name": "launch_date_utc",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -2290,7 +2290,7 @@
           },
           {
             "name": "launch_success",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2300,7 +2300,7 @@
           },
           {
             "name": "launch_year",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2310,7 +2310,7 @@
           },
           {
             "name": "legs",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2320,7 +2320,7 @@
           },
           {
             "name": "lifespan_years",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2330,7 +2330,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2340,7 +2340,7 @@
           },
           {
             "name": "manufacturer",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2350,7 +2350,7 @@
           },
           {
             "name": "mean_motion",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2360,7 +2360,7 @@
           },
           {
             "name": "mission_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2370,7 +2370,7 @@
           },
           {
             "name": "mission_name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2380,7 +2380,7 @@
           },
           {
             "name": "nationality",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2390,7 +2390,7 @@
           },
           {
             "name": "norad_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -2400,7 +2400,7 @@
           },
           {
             "name": "orbit",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2410,7 +2410,7 @@
           },
           {
             "name": "payload_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2420,7 +2420,7 @@
           },
           {
             "name": "payload_type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2430,7 +2430,7 @@
           },
           {
             "name": "periapsis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2440,7 +2440,7 @@
           },
           {
             "name": "period_min",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2450,7 +2450,7 @@
           },
           {
             "name": "raan",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2460,7 +2460,7 @@
           },
           {
             "name": "reference_system",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2470,7 +2470,7 @@
           },
           {
             "name": "regime",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2480,7 +2480,7 @@
           },
           {
             "name": "reused",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2490,7 +2490,7 @@
           },
           {
             "name": "rocket_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2500,7 +2500,7 @@
           },
           {
             "name": "rocket_name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2510,7 +2510,7 @@
           },
           {
             "name": "rocket_type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2520,7 +2520,7 @@
           },
           {
             "name": "second_stage_block",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2530,7 +2530,7 @@
           },
           {
             "name": "semi_major_axis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -2540,7 +2540,7 @@
           },
           {
             "name": "ship",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2550,7 +2550,7 @@
           },
           {
             "name": "side_core1_reuse",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2560,7 +2560,7 @@
           },
           {
             "name": "side_core2_reuse",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2570,7 +2570,7 @@
           },
           {
             "name": "site_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2580,7 +2580,7 @@
           },
           {
             "name": "site_name_long",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2590,7 +2590,7 @@
           },
           {
             "name": "site_name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2600,7 +2600,7 @@
           },
           {
             "name": "start",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -2610,7 +2610,7 @@
           },
           {
             "name": "tbd",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2620,7 +2620,7 @@
           },
           {
             "name": "tentative_max_precision",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2630,7 +2630,7 @@
           },
           {
             "name": "tentative",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -2646,11 +2646,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchLinks",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "article_link",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2662,7 +2662,7 @@
           },
           {
             "name": "flickr_images",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -2678,7 +2678,7 @@
           },
           {
             "name": "mission_patch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2690,7 +2690,7 @@
           },
           {
             "name": "mission_patch_small",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2702,7 +2702,7 @@
           },
           {
             "name": "presskit",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2714,7 +2714,7 @@
           },
           {
             "name": "reddit_campaign",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2726,7 +2726,7 @@
           },
           {
             "name": "reddit_launch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2738,7 +2738,7 @@
           },
           {
             "name": "reddit_media",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2750,7 +2750,7 @@
           },
           {
             "name": "reddit_recovery",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2762,7 +2762,7 @@
           },
           {
             "name": "video_link",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2774,7 +2774,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2793,11 +2793,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchRocket",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "fairings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2809,7 +2809,7 @@
           },
           {
             "name": "first_stage",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2821,7 +2821,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2833,7 +2833,7 @@
           },
           {
             "name": "rocket_name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2845,7 +2845,7 @@
           },
           {
             "name": "rocket_type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2857,7 +2857,7 @@
           },
           {
             "name": "second_stage",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2876,11 +2876,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchRocketFairings",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "recovered",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2892,7 +2892,7 @@
           },
           {
             "name": "recovery_attempt",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2904,7 +2904,7 @@
           },
           {
             "name": "reused",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2916,7 +2916,7 @@
           },
           {
             "name": "ship",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2935,11 +2935,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchRocketFirstStage",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "cores",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -2962,11 +2962,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchRocketFirstStageCore",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "block",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -2978,7 +2978,7 @@
           },
           {
             "name": "core",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3002,7 +3002,7 @@
           },
           {
             "name": "gridfins",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3014,7 +3014,7 @@
           },
           {
             "name": "land_success",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3026,7 +3026,7 @@
           },
           {
             "name": "landing_intent",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3038,7 +3038,7 @@
           },
           {
             "name": "landing_type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3050,7 +3050,7 @@
           },
           {
             "name": "landing_vehicle",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3062,7 +3062,7 @@
           },
           {
             "name": "legs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3074,7 +3074,7 @@
           },
           {
             "name": "reused",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3093,11 +3093,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchRocketSecondStage",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "block",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3109,7 +3109,7 @@
           },
           {
             "name": "payloads",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3132,11 +3132,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchSite",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "site_id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3148,7 +3148,7 @@
           },
           {
             "name": "site_name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3160,7 +3160,7 @@
           },
           {
             "name": "site_name_long",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3179,11 +3179,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchTelemetry",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "flight_club",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3202,11 +3202,11 @@
       {
         "kind": "OBJECT",
         "name": "LaunchesPastResult",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3222,7 +3222,7 @@
           },
           {
             "name": "result",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -3241,11 +3241,11 @@
       {
         "kind": "OBJECT",
         "name": "Launchpad",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "attempted_launches",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3257,7 +3257,7 @@
           },
           {
             "name": "details",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3269,7 +3269,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3281,7 +3281,7 @@
           },
           {
             "name": "location",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -3293,7 +3293,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3305,7 +3305,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3317,7 +3317,7 @@
           },
           {
             "name": "successful_launches",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3329,7 +3329,7 @@
           },
           {
             "name": "vehicles_launched",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3345,7 +3345,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3364,11 +3364,11 @@
       {
         "kind": "OBJECT",
         "name": "Link",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "article",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3380,7 +3380,7 @@
           },
           {
             "name": "reddit",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3392,7 +3392,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3411,11 +3411,11 @@
       {
         "kind": "OBJECT",
         "name": "Location",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "latitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3427,7 +3427,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3439,7 +3439,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3451,7 +3451,7 @@
           },
           {
             "name": "region",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3470,11 +3470,11 @@
       {
         "kind": "OBJECT",
         "name": "Mass",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3486,7 +3486,7 @@
           },
           {
             "name": "lb",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3505,11 +3505,11 @@
       {
         "kind": "OBJECT",
         "name": "Mission",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "description",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3521,7 +3521,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3533,7 +3533,7 @@
           },
           {
             "name": "manufacturers",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3549,7 +3549,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3561,7 +3561,7 @@
           },
           {
             "name": "payloads",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3577,7 +3577,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3589,7 +3589,7 @@
           },
           {
             "name": "website",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3601,7 +3601,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3620,11 +3620,11 @@
       {
         "kind": "OBJECT",
         "name": "MissionResult",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3640,7 +3640,7 @@
           },
           {
             "name": "result",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -3659,12 +3659,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "MissionsFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -3674,7 +3674,7 @@
           },
           {
             "name": "manufacturer",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -3684,7 +3684,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -3694,7 +3694,7 @@
           },
           {
             "name": "payload_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -3830,7 +3830,7 @@
       {
         "kind": "SCALAR",
         "name": "ObjectID",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": null,
         "interfaces": null,
@@ -3840,11 +3840,11 @@
       {
         "kind": "OBJECT",
         "name": "Payload",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "customers",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3860,7 +3860,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3872,7 +3872,7 @@
           },
           {
             "name": "manufacturer",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3884,7 +3884,7 @@
           },
           {
             "name": "nationality",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3896,7 +3896,7 @@
           },
           {
             "name": "norad_id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -3912,7 +3912,7 @@
           },
           {
             "name": "orbit",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3924,7 +3924,7 @@
           },
           {
             "name": "orbit_params",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -3936,7 +3936,7 @@
           },
           {
             "name": "payload_mass_kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3948,7 +3948,7 @@
           },
           {
             "name": "payload_mass_lbs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3960,7 +3960,7 @@
           },
           {
             "name": "payload_type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3972,7 +3972,7 @@
           },
           {
             "name": "reused",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -3991,11 +3991,11 @@
       {
         "kind": "OBJECT",
         "name": "PayloadOrbitParams",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "apoapsis_km",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4007,7 +4007,7 @@
           },
           {
             "name": "arg_of_pericenter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4019,7 +4019,7 @@
           },
           {
             "name": "eccentricity",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4031,7 +4031,7 @@
           },
           {
             "name": "epoch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4043,7 +4043,7 @@
           },
           {
             "name": "inclination_deg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4055,7 +4055,7 @@
           },
           {
             "name": "lifespan_years",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4067,7 +4067,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4079,7 +4079,7 @@
           },
           {
             "name": "mean_anomaly",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4091,7 +4091,7 @@
           },
           {
             "name": "mean_motion",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4103,7 +4103,7 @@
           },
           {
             "name": "periapsis_km",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4115,7 +4115,7 @@
           },
           {
             "name": "period_min",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4127,7 +4127,7 @@
           },
           {
             "name": "raan",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4139,7 +4139,7 @@
           },
           {
             "name": "reference_system",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4151,7 +4151,7 @@
           },
           {
             "name": "regime",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4163,7 +4163,7 @@
           },
           {
             "name": "semi_major_axis_km",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -4182,12 +4182,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "PayloadsFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "apoapsis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4197,7 +4197,7 @@
           },
           {
             "name": "customer",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4207,7 +4207,7 @@
           },
           {
             "name": "eccentricity",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4217,7 +4217,7 @@
           },
           {
             "name": "epoch",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Date",
@@ -4227,7 +4227,7 @@
           },
           {
             "name": "inclination_deg",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4237,7 +4237,7 @@
           },
           {
             "name": "lifespan_years",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4247,7 +4247,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4257,7 +4257,7 @@
           },
           {
             "name": "manufacturer",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4267,7 +4267,7 @@
           },
           {
             "name": "mean_motion",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4277,7 +4277,7 @@
           },
           {
             "name": "nationality",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4287,7 +4287,7 @@
           },
           {
             "name": "norad_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -4297,7 +4297,7 @@
           },
           {
             "name": "orbit",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4307,7 +4307,7 @@
           },
           {
             "name": "payload_id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -4317,7 +4317,7 @@
           },
           {
             "name": "payload_type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4327,7 +4327,7 @@
           },
           {
             "name": "periapsis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4337,7 +4337,7 @@
           },
           {
             "name": "period_min",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4347,7 +4347,7 @@
           },
           {
             "name": "raan",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4357,7 +4357,7 @@
           },
           {
             "name": "reference_system",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4367,7 +4367,7 @@
           },
           {
             "name": "regime",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -4377,7 +4377,7 @@
           },
           {
             "name": "reused",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -4387,7 +4387,7 @@
           },
           {
             "name": "semi_major_axis_km",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -4407,7 +4407,7 @@
         "fields": [
           {
             "name": "capsule",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -4434,7 +4434,7 @@
           },
           {
             "name": "capsules",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4501,7 +4501,7 @@
           },
           {
             "name": "capsulesPast",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4568,7 +4568,7 @@
           },
           {
             "name": "capsulesUpcoming",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4635,7 +4635,7 @@
           },
           {
             "name": "company",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -4647,7 +4647,7 @@
           },
           {
             "name": "core",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -4674,7 +4674,7 @@
           },
           {
             "name": "cores",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4741,7 +4741,7 @@
           },
           {
             "name": "coresPast",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4808,7 +4808,7 @@
           },
           {
             "name": "coresUpcoming",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -4875,7 +4875,7 @@
           },
           {
             "name": "dragon",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -4902,7 +4902,7 @@
           },
           {
             "name": "dragons",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "limit",
@@ -4939,7 +4939,7 @@
           },
           {
             "name": "histories",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5006,7 +5006,7 @@
           },
           {
             "name": "historiesResult",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5069,7 +5069,7 @@
           },
           {
             "name": "history",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5096,7 +5096,7 @@
           },
           {
             "name": "landpad",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5123,7 +5123,7 @@
           },
           {
             "name": "landpads",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "limit",
@@ -5160,7 +5160,7 @@
           },
           {
             "name": "launch",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5187,7 +5187,7 @@
           },
           {
             "name": "launchLatest",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "offset",
@@ -5210,7 +5210,7 @@
           },
           {
             "name": "launchNext",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "offset",
@@ -5233,7 +5233,7 @@
           },
           {
             "name": "launches",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5300,7 +5300,7 @@
           },
           {
             "name": "launchesPast",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5367,7 +5367,7 @@
           },
           {
             "name": "launchesPastResult",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5430,7 +5430,7 @@
           },
           {
             "name": "launchesUpcoming",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5497,7 +5497,7 @@
           },
           {
             "name": "launchpad",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5524,7 +5524,7 @@
           },
           {
             "name": "launchpads",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "limit",
@@ -5561,7 +5561,7 @@
           },
           {
             "name": "mission",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5583,12 +5583,12 @@
               "name": "Mission",
               "ofType": null
             },
-            "isDeprecated": false,
-            "deprecationReason": null
+            "isDeprecated": true,
+            "deprecationReason": "Mission is not available on REST API after MongoDB deprecation"
           },
           {
             "name": "missions",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5630,12 +5630,12 @@
                 "ofType": null
               }
             },
-            "isDeprecated": false,
-            "deprecationReason": null
+            "isDeprecated": true,
+            "deprecationReason": "Mission is not available on REST API after MongoDB deprecation"
           },
           {
             "name": "missionsResult",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5673,12 +5673,12 @@
               "name": "MissionResult",
               "ofType": null
             },
-            "isDeprecated": false,
-            "deprecationReason": null
+            "isDeprecated": true,
+            "deprecationReason": "Mission is not available on REST API after MongoDB deprecation"
           },
           {
             "name": "payload",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5705,7 +5705,7 @@
           },
           {
             "name": "payloads",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5772,7 +5772,7 @@
           },
           {
             "name": "roadster",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -5784,7 +5784,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5811,7 +5811,7 @@
           },
           {
             "name": "rockets",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "limit",
@@ -5848,7 +5848,7 @@
           },
           {
             "name": "rocketsResult",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "limit",
@@ -5881,7 +5881,7 @@
           },
           {
             "name": "ship",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "id",
@@ -5908,7 +5908,7 @@
           },
           {
             "name": "ships",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -5975,7 +5975,7 @@
           },
           {
             "name": "shipsResult",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "find",
@@ -6246,11 +6246,11 @@
       {
         "kind": "OBJECT",
         "name": "Result",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "totalCount",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6269,11 +6269,11 @@
       {
         "kind": "OBJECT",
         "name": "Roadster",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "apoapsis_au",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6285,7 +6285,7 @@
           },
           {
             "name": "details",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6297,7 +6297,7 @@
           },
           {
             "name": "earth_distance_km",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6309,7 +6309,7 @@
           },
           {
             "name": "earth_distance_mi",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6321,7 +6321,7 @@
           },
           {
             "name": "eccentricity",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6333,7 +6333,7 @@
           },
           {
             "name": "epoch_jd",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6345,7 +6345,7 @@
           },
           {
             "name": "inclination",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6357,7 +6357,7 @@
           },
           {
             "name": "launch_date_unix",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6369,7 +6369,7 @@
           },
           {
             "name": "launch_date_utc",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6381,7 +6381,7 @@
           },
           {
             "name": "launch_mass_kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6393,7 +6393,7 @@
           },
           {
             "name": "launch_mass_lbs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6405,7 +6405,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6417,7 +6417,7 @@
           },
           {
             "name": "mars_distance_km",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6429,7 +6429,7 @@
           },
           {
             "name": "mars_distance_mi",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6441,7 +6441,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6453,7 +6453,7 @@
           },
           {
             "name": "norad_id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6465,7 +6465,7 @@
           },
           {
             "name": "orbit_type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6477,7 +6477,7 @@
           },
           {
             "name": "periapsis_arg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6489,7 +6489,7 @@
           },
           {
             "name": "periapsis_au",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6501,7 +6501,7 @@
           },
           {
             "name": "period_days",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6513,7 +6513,7 @@
           },
           {
             "name": "semi_major_axis_au",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6525,7 +6525,7 @@
           },
           {
             "name": "speed_kph",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6537,7 +6537,7 @@
           },
           {
             "name": "speed_mph",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6549,7 +6549,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6568,11 +6568,11 @@
       {
         "kind": "OBJECT",
         "name": "Rocket",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "active",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6584,7 +6584,7 @@
           },
           {
             "name": "boosters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6596,7 +6596,7 @@
           },
           {
             "name": "company",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6608,7 +6608,7 @@
           },
           {
             "name": "cost_per_launch",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6620,7 +6620,7 @@
           },
           {
             "name": "country",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6632,7 +6632,7 @@
           },
           {
             "name": "description",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6644,7 +6644,7 @@
           },
           {
             "name": "diameter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6656,7 +6656,7 @@
           },
           {
             "name": "engines",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6668,7 +6668,7 @@
           },
           {
             "name": "first_flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6680,7 +6680,7 @@
           },
           {
             "name": "first_stage",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6692,7 +6692,7 @@
           },
           {
             "name": "height",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6704,7 +6704,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6716,7 +6716,7 @@
           },
           {
             "name": "landing_legs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6728,7 +6728,7 @@
           },
           {
             "name": "mass",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6740,7 +6740,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6752,7 +6752,7 @@
           },
           {
             "name": "payload_weights",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -6768,7 +6768,7 @@
           },
           {
             "name": "second_stage",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6780,7 +6780,7 @@
           },
           {
             "name": "stages",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6792,7 +6792,7 @@
           },
           {
             "name": "success_rate_pct",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6804,7 +6804,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6816,7 +6816,7 @@
           },
           {
             "name": "wikipedia",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6835,11 +6835,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketEngines",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "engine_loss_max",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6851,7 +6851,7 @@
           },
           {
             "name": "layout",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6863,7 +6863,7 @@
           },
           {
             "name": "number",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6875,7 +6875,7 @@
           },
           {
             "name": "propellant_1",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6887,7 +6887,7 @@
           },
           {
             "name": "propellant_2",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6899,7 +6899,7 @@
           },
           {
             "name": "thrust_sea_level",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6911,7 +6911,7 @@
           },
           {
             "name": "thrust_to_weight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6923,7 +6923,7 @@
           },
           {
             "name": "thrust_vacuum",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -6935,7 +6935,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6947,7 +6947,7 @@
           },
           {
             "name": "version",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6966,11 +6966,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketFirstStage",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "burn_time_sec",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6982,7 +6982,7 @@
           },
           {
             "name": "engines",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -6994,7 +6994,7 @@
           },
           {
             "name": "fuel_amount_tons",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7006,7 +7006,7 @@
           },
           {
             "name": "reusable",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7018,7 +7018,7 @@
           },
           {
             "name": "thrust_sea_level",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7030,7 +7030,7 @@
           },
           {
             "name": "thrust_vacuum",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7049,11 +7049,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketLandingLegs",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "material",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7065,7 +7065,7 @@
           },
           {
             "name": "number",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7084,11 +7084,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketPayloadWeight",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7100,7 +7100,7 @@
           },
           {
             "name": "kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7112,7 +7112,7 @@
           },
           {
             "name": "lb",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7124,7 +7124,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7143,11 +7143,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketSecondStage",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "burn_time_sec",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7159,7 +7159,7 @@
           },
           {
             "name": "engines",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7171,7 +7171,7 @@
           },
           {
             "name": "fuel_amount_tons",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7183,7 +7183,7 @@
           },
           {
             "name": "payloads",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7195,7 +7195,7 @@
           },
           {
             "name": "thrust",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7214,11 +7214,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketSecondStagePayloadCompositeFairing",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "diameter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7230,7 +7230,7 @@
           },
           {
             "name": "height",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7249,11 +7249,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketSecondStagePayloads",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "composite_fairing",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7265,7 +7265,7 @@
           },
           {
             "name": "option_1",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7284,11 +7284,11 @@
       {
         "kind": "OBJECT",
         "name": "RocketsResult",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -7304,7 +7304,7 @@
           },
           {
             "name": "result",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7323,11 +7323,11 @@
       {
         "kind": "OBJECT",
         "name": "Ship",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "abs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7339,7 +7339,7 @@
           },
           {
             "name": "active",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7351,7 +7351,7 @@
           },
           {
             "name": "attempted_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7363,7 +7363,7 @@
           },
           {
             "name": "class",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7375,7 +7375,7 @@
           },
           {
             "name": "course_deg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7387,7 +7387,7 @@
           },
           {
             "name": "home_port",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7399,7 +7399,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7411,7 +7411,7 @@
           },
           {
             "name": "image",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7423,7 +7423,7 @@
           },
           {
             "name": "imo",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7435,7 +7435,7 @@
           },
           {
             "name": "missions",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -7451,7 +7451,7 @@
           },
           {
             "name": "mmsi",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7463,7 +7463,7 @@
           },
           {
             "name": "model",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7475,7 +7475,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7487,7 +7487,7 @@
           },
           {
             "name": "position",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7499,7 +7499,7 @@
           },
           {
             "name": "roles",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -7515,7 +7515,7 @@
           },
           {
             "name": "speed_kn",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7527,7 +7527,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7539,7 +7539,7 @@
           },
           {
             "name": "successful_landings",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7551,7 +7551,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7563,7 +7563,7 @@
           },
           {
             "name": "url",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7575,7 +7575,7 @@
           },
           {
             "name": "weight_kg",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7587,7 +7587,7 @@
           },
           {
             "name": "weight_lbs",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7599,7 +7599,7 @@
           },
           {
             "name": "year_built",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7618,11 +7618,11 @@
       {
         "kind": "OBJECT",
         "name": "ShipLocation",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "latitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7634,7 +7634,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7653,11 +7653,11 @@
       {
         "kind": "OBJECT",
         "name": "ShipMission",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "flight",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7669,7 +7669,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -7688,12 +7688,12 @@
       {
         "kind": "INPUT_OBJECT",
         "name": "ShipsFind",
-        "description": "",
+        "description": null,
         "fields": null,
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "ID",
@@ -7703,7 +7703,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7713,7 +7713,7 @@
           },
           {
             "name": "model",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7723,7 +7723,7 @@
           },
           {
             "name": "type",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7733,7 +7733,7 @@
           },
           {
             "name": "role",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7743,7 +7743,7 @@
           },
           {
             "name": "active",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -7753,7 +7753,7 @@
           },
           {
             "name": "imo",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7763,7 +7763,7 @@
           },
           {
             "name": "mmsi",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7773,7 +7773,7 @@
           },
           {
             "name": "abs",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7783,7 +7783,7 @@
           },
           {
             "name": "class",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7793,7 +7793,7 @@
           },
           {
             "name": "weight_lbs",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7803,7 +7803,7 @@
           },
           {
             "name": "weight_kg",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7813,7 +7813,7 @@
           },
           {
             "name": "year_built",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7823,7 +7823,7 @@
           },
           {
             "name": "home_port",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7833,7 +7833,7 @@
           },
           {
             "name": "status",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7843,7 +7843,7 @@
           },
           {
             "name": "speed_kn",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7853,7 +7853,7 @@
           },
           {
             "name": "course_deg",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7863,7 +7863,7 @@
           },
           {
             "name": "latitude",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -7873,7 +7873,7 @@
           },
           {
             "name": "longitude",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Float",
@@ -7883,7 +7883,7 @@
           },
           {
             "name": "successful_landings",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7893,7 +7893,7 @@
           },
           {
             "name": "attempted_landings",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Int",
@@ -7903,7 +7903,7 @@
           },
           {
             "name": "mission",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7919,11 +7919,11 @@
       {
         "kind": "OBJECT",
         "name": "ShipsResult",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "LIST",
@@ -7939,7 +7939,7 @@
           },
           {
             "name": "result",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -7963,7 +7963,7 @@
         "inputFields": [
           {
             "name": "_eq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7973,7 +7973,7 @@
           },
           {
             "name": "_gt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7983,7 +7983,7 @@
           },
           {
             "name": "_gte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -7993,7 +7993,7 @@
           },
           {
             "name": "_ilike",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8003,7 +8003,7 @@
           },
           {
             "name": "_in",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8021,7 +8021,7 @@
           },
           {
             "name": "_is_null",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -8031,7 +8031,7 @@
           },
           {
             "name": "_like",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8041,7 +8041,7 @@
           },
           {
             "name": "_lt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8051,7 +8051,7 @@
           },
           {
             "name": "_lte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8061,7 +8061,7 @@
           },
           {
             "name": "_neq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8071,7 +8071,7 @@
           },
           {
             "name": "_nilike",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8081,7 +8081,7 @@
           },
           {
             "name": "_nin",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8099,7 +8099,7 @@
           },
           {
             "name": "_nlike",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8109,7 +8109,7 @@
           },
           {
             "name": "_nsimilar",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8119,7 +8119,7 @@
           },
           {
             "name": "_similar",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -8347,11 +8347,11 @@
       {
         "kind": "OBJECT",
         "name": "Volume",
-        "description": "",
+        "description": null,
         "fields": [
           {
             "name": "cubic_feet",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -8363,7 +8363,7 @@
           },
           {
             "name": "cubic_meters",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -8467,7 +8467,7 @@
         "inputFields": [
           {
             "name": "_eq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8477,7 +8477,7 @@
           },
           {
             "name": "_gt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8487,7 +8487,7 @@
           },
           {
             "name": "_gte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8497,7 +8497,7 @@
           },
           {
             "name": "_in",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8515,7 +8515,7 @@
           },
           {
             "name": "_is_null",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -8525,7 +8525,7 @@
           },
           {
             "name": "_lt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8535,7 +8535,7 @@
           },
           {
             "name": "_lte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8545,7 +8545,7 @@
           },
           {
             "name": "_neq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -8555,7 +8555,7 @@
           },
           {
             "name": "_nin",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8583,7 +8583,7 @@
         "fields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -8599,7 +8599,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -8611,7 +8611,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -8623,7 +8623,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -8639,7 +8639,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -8662,7 +8662,7 @@
         "fields": [
           {
             "name": "aggregate",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -8674,7 +8674,7 @@
           },
           {
             "name": "nodes",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -8709,7 +8709,7 @@
         "fields": [
           {
             "name": "count",
-            "description": "",
+            "description": null,
             "args": [
               {
                 "name": "columns",
@@ -8750,7 +8750,7 @@
           },
           {
             "name": "max",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -8762,7 +8762,7 @@
           },
           {
             "name": "min",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "OBJECT",
@@ -8786,7 +8786,7 @@
         "inputFields": [
           {
             "name": "count",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -8796,7 +8796,7 @@
           },
           {
             "name": "max",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "users_max_order_by",
@@ -8806,7 +8806,7 @@
           },
           {
             "name": "min",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "users_min_order_by",
@@ -8827,7 +8827,7 @@
         "inputFields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "NON_NULL",
               "name": null,
@@ -8849,7 +8849,7 @@
           },
           {
             "name": "on_conflict",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "users_on_conflict",
@@ -8870,7 +8870,7 @@
         "inputFields": [
           {
             "name": "_and",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8884,7 +8884,7 @@
           },
           {
             "name": "_not",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "users_bool_exp",
@@ -8894,7 +8894,7 @@
           },
           {
             "name": "_or",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -8908,7 +8908,7 @@
           },
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "uuid_comparison_exp",
@@ -8918,7 +8918,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "String_comparison_exp",
@@ -8928,7 +8928,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "String_comparison_exp",
@@ -8938,7 +8938,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "timestamptz_comparison_exp",
@@ -8948,7 +8948,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "String_comparison_exp",
@@ -8970,8 +8970,38 @@
         "interfaces": null,
         "enumValues": [
           {
+            "name": "unique",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "or",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "primary",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "key",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "constraint",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "users_pkey",
-            "description": "unique or primary key constraint",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -8986,7 +9016,7 @@
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -8996,7 +9026,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9006,7 +9036,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9016,7 +9046,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -9026,7 +9056,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9046,7 +9076,7 @@
         "fields": [
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9058,7 +9088,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9070,7 +9100,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9082,7 +9112,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9106,7 +9136,7 @@
         "inputFields": [
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9116,7 +9146,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9126,7 +9156,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9136,7 +9166,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9156,7 +9186,7 @@
         "fields": [
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9168,7 +9198,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9180,7 +9210,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9192,7 +9222,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "args": [],
             "type": {
               "kind": "SCALAR",
@@ -9216,7 +9246,7 @@
         "inputFields": [
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9226,7 +9256,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9236,7 +9266,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9246,7 +9276,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9318,7 +9348,7 @@
         "inputFields": [
           {
             "name": "data",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "NON_NULL",
               "name": null,
@@ -9332,7 +9362,7 @@
           },
           {
             "name": "on_conflict",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "users_on_conflict",
@@ -9353,7 +9383,7 @@
         "inputFields": [
           {
             "name": "constraint",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "NON_NULL",
               "name": null,
@@ -9367,7 +9397,7 @@
           },
           {
             "name": "update_columns",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "NON_NULL",
               "name": null,
@@ -9400,7 +9430,7 @@
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9410,7 +9440,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9420,7 +9450,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9430,7 +9460,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9440,7 +9470,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "ENUM",
               "name": "order_by",
@@ -9462,32 +9492,38 @@
         "interfaces": null,
         "enumValues": [
           {
-            "name": "id",
-            "description": "column name",
+            "name": "column",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "name",
-            "description": "column name",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "id",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "rocket",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "timestamp",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "twitter",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -9502,7 +9538,7 @@
         "inputFields": [
           {
             "name": "id",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9512,7 +9548,7 @@
           },
           {
             "name": "name",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9522,7 +9558,7 @@
           },
           {
             "name": "rocket",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9532,7 +9568,7 @@
           },
           {
             "name": "timestamp",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "timestamptz",
@@ -9542,7 +9578,7 @@
           },
           {
             "name": "twitter",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "String",
@@ -9564,32 +9600,38 @@
         "interfaces": null,
         "enumValues": [
           {
-            "name": "id",
-            "description": "column name",
+            "name": "column",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "name",
-            "description": "column name",
+            "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "id",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "rocket",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "timestamp",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "twitter",
-            "description": "column name",
+            "description": null,
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -9614,7 +9656,7 @@
         "inputFields": [
           {
             "name": "_eq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9624,7 +9666,7 @@
           },
           {
             "name": "_gt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9634,7 +9676,7 @@
           },
           {
             "name": "_gte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9644,7 +9686,7 @@
           },
           {
             "name": "_in",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -9662,7 +9704,7 @@
           },
           {
             "name": "_is_null",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
@@ -9672,7 +9714,7 @@
           },
           {
             "name": "_lt",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9682,7 +9724,7 @@
           },
           {
             "name": "_lte",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9692,7 +9734,7 @@
           },
           {
             "name": "_neq",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "SCALAR",
               "name": "uuid",
@@ -9702,7 +9744,7 @@
           },
           {
             "name": "_nin",
-            "description": "",
+            "description": null,
             "type": {
               "kind": "LIST",
               "name": null,
@@ -10622,6 +10664,49 @@
       }
     ],
     "directives": [
+      {
+        "name": "contact",
+        "description": null,
+        "locations": [
+          "SCHEMA"
+        ],
+        "args": [
+          {
+            "name": "name",
+            "description": "Contact title of the subgraph owner",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "url",
+            "description": "URL where the subgraph's owner can be reached",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "description",
+            "description": "Other relevant notes can be included here; supports markdown links",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "defaultValue": null
+          }
+        ]
+      },
       {
         "name": "include",
         "description": "Directs the executor to include this field or fragment only when the `if` argument is true.",
