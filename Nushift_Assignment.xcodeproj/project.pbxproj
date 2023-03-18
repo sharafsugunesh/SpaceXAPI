@@ -15,6 +15,9 @@
 		B11FA9AC29C422900043A644 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9AB29C422900043A644 /* Utility.swift */; };
 		B11FA9AE29C431FB0043A644 /* CornerRadiousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9AD29C431FB0043A644 /* CornerRadiousViewController.swift */; };
 		B121674C29C59F5D00488481 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B121674B29C59F5D00488481 /* RealmModel.swift */; };
+		B121674E29C6237400488481 /* ShipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B121674D29C6237400488481 /* ShipDetailViewController.swift */; };
+		B121675129C6266400488481 /* rocket-launch-ruchit.gif in Resources */ = {isa = PBXBuildFile; fileRef = B121675029C6266300488481 /* rocket-launch-ruchit.gif */; };
+		B121675529C636C600488481 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B121675429C636C600488481 /* BaseViewController.swift */; };
 		B174766C29C56D7400189EDD /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B174766B29C56D7400189EDD /* Realm */; };
 		B174766E29C56D7400189EDD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B174766D29C56D7400189EDD /* RealmSwift */; };
 		B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55A729C10C9C001DEA41 /* AppDelegate.swift */; };
@@ -41,6 +44,9 @@
 		B11FA9AB29C422900043A644 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		B11FA9AD29C431FB0043A644 /* CornerRadiousViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiousViewController.swift; sourceTree = "<group>"; };
 		B121674B29C59F5D00488481 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		B121674D29C6237400488481 /* ShipDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipDetailViewController.swift; sourceTree = "<group>"; };
+		B121675029C6266300488481 /* rocket-launch-ruchit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rocket-launch-ruchit.gif"; sourceTree = "<group>"; };
+		B121675429C636C600488481 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B19F55A429C10C9C001DEA41 /* Nushift_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nushift_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F55A729C10C9C001DEA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19F55A929C10C9C001DEA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +102,14 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		B121674F29C6264800488481 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B121675029C6266300488481 /* rocket-launch-ruchit.gif */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		B19F559B29C10C9C001DEA41 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +131,7 @@
 		B19F55A629C10C9C001DEA41 /* Nushift_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B121674F29C6264800488481 /* Assets */,
 				B11FA9AA29C422720043A644 /* Utility */,
 				B11FA9A129C41BE30043A644 /* API.swift */,
 				B1AD6DD429C2C22B00ADB270 /* ViewModel */,
@@ -150,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				B19F55AB29C10C9C001DEA41 /* ViewController.swift */,
+				B121674D29C6237400488481 /* ShipDetailViewController.swift */,
+				B121675429C636C600488481 /* BaseViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -252,6 +269,7 @@
 				B19F55B429C10C9F001DEA41 /* LaunchScreen.storyboard in Resources */,
 				B19F55B129C10C9F001DEA41 /* Assets.xcassets in Resources */,
 				B19F55AF29C10C9C001DEA41 /* Main.storyboard in Resources */,
+				B121675129C6266400488481 /* rocket-launch-ruchit.gif in Resources */,
 				B11FA99629C2C36E0043A644 /* Ship.graphql in Resources */,
 				B19F55C629C10DEB001DEA41 /* schema.json in Resources */,
 				B19F55C129C10D8F001DEA41 /* CapsuleList.graphql in Resources */,
@@ -329,6 +347,8 @@
 				B19F55AC29C10C9C001DEA41 /* ViewController.swift in Sources */,
 				B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */,
 				B121674C29C59F5D00488481 /* RealmModel.swift in Sources */,
+				B121674E29C6237400488481 /* ShipDetailViewController.swift in Sources */,
+				B121675529C636C600488481 /* BaseViewController.swift in Sources */,
 				B19F55AA29C10C9C001DEA41 /* SceneDelegate.swift in Sources */,
 				B11FA9AE29C431FB0043A644 /* CornerRadiousViewController.swift in Sources */,
 				B11FA9AC29C422900043A644 /* Utility.swift in Sources */,

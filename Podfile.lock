@@ -2,17 +2,21 @@ PODS:
   - Apollo (0.30.0):
     - Apollo/Core (= 0.30.0)
   - Apollo/Core (0.30.0)
+  - PUGifLoading (1.0.3)
 
 DEPENDENCIES:
   - Apollo (= 0.30)
+  - PUGifLoading
 
 SPEC REPOS:
   trunk:
     - Apollo
+    - PUGifLoading
 
 SPEC CHECKSUMS:
   Apollo: c10bf1a4c7db5237be1056ace16347cd1cdcb863
+  PUGifLoading: b36d080b4fcde4edee37df4dc138be6ca1b3568b
 
-PODFILE CHECKSUM: ee8bd604fb8e3c8f2c09f97dfa4eed2c112e52c8
+PODFILE CHECKSUM: 1d21cbba1fab7447403738cec3b00d305369bceb
 
 COCOAPODS: 1.11.3

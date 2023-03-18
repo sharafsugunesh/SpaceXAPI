@@ -6,5 +6,6 @@ target 'Nushift_Assignment' do
   use_frameworks!
 
 pod 'Apollo', '0.30'
+pod 'PUGifLoading'
 
 end

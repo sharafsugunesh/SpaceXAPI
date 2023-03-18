@@ -9,7 +9,10 @@ import UIKit
 
 class ShipTableViewCell: UITableViewCell {
     @IBOutlet weak var shipNameLabel: UILabel!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var shipImageView: UIImageView!
+    @IBOutlet weak var shipStatusImageView: UIImageView!
+    
     var ship: ShipsQuery.Data.Ship?
     
     func updateCellUI() {
@@ -22,6 +25,7 @@ class ShipTableViewCell: UITableViewCell {
                 if let data = try? Data(contentsOf: url) {
                     DispatchQueue.main.async {
                         self?.shipImageView.image = UIImage(data: data)
+                        self?.activityIndicator.stopAnimating()
                     }
                 }
             }
