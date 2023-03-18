@@ -30,6 +30,7 @@
 		B19F55C329C10D8F001DEA41 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B19F55C029C10D8F001DEA41 /* LaunchList.graphql */; };
 		B19F55C629C10DEB001DEA41 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B19F55C529C10DEB001DEA41 /* schema.json */; };
 		B19F55C829C10E1C001DEA41 /* ApolloNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55C729C10E1C001DEA41 /* ApolloNetworkHelper.swift */; };
+		B1ACF48929C642130040293B /* Connectivity in Frameworks */ = {isa = PBXBuildFile; productRef = B1ACF48829C642130040293B /* Connectivity */; };
 		B1AD6DD629C2C23A00ADB270 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD6DD529C2C23A00ADB270 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 				B174766E29C56D7400189EDD /* RealmSwift in Frameworks */,
 				B174766C29C56D7400189EDD /* Realm in Frameworks */,
 				759598ECFB37C2A3A1C45FFC /* Pods_Nushift_Assignment.framework in Frameworks */,
+				B1ACF48929C642130040293B /* Connectivity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +220,7 @@
 			packageProductDependencies = (
 				B174766B29C56D7400189EDD /* Realm */,
 				B174766D29C56D7400189EDD /* RealmSwift */,
+				B1ACF48829C642130040293B /* Connectivity */,
 			);
 			productName = Nushift_Assignment;
 			productReference = B19F55A429C10C9C001DEA41 /* Nushift_Assignment.app */;
@@ -249,6 +252,7 @@
 			mainGroup = B19F559B29C10C9C001DEA41;
 			packageReferences = (
 				B174766A29C56D7400189EDD /* XCRemoteSwiftPackageReference "realm-swift" */,
+				B1ACF48729C642130040293B /* XCRemoteSwiftPackageReference "connectivity" */,
 			);
 			productRefGroup = B19F55A529C10C9C001DEA41 /* Products */;
 			projectDirPath = "";
@@ -584,6 +588,14 @@
 				kind = branch;
 			};
 		};
+		B1ACF48729C642130040293B /* XCRemoteSwiftPackageReference "connectivity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/connectivity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -596,6 +608,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B174766A29C56D7400189EDD /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		B1ACF48829C642130040293B /* Connectivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1ACF48729C642130040293B /* XCRemoteSwiftPackageReference "connectivity" */;
+			productName = Connectivity;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
