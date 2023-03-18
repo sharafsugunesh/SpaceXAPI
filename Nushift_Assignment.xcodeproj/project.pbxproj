@@ -14,6 +14,7 @@
 		B11FA9A829C421170043A644 /* ShipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9A629C421170043A644 /* ShipTableViewCell.swift */; };
 		B11FA9AC29C422900043A644 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9AB29C422900043A644 /* Utility.swift */; };
 		B11FA9AE29C431FB0043A644 /* CornerRadiousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FA9AD29C431FB0043A644 /* CornerRadiousViewController.swift */; };
+		B121674C29C59F5D00488481 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B121674B29C59F5D00488481 /* RealmModel.swift */; };
 		B174766C29C56D7400189EDD /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B174766B29C56D7400189EDD /* Realm */; };
 		B174766E29C56D7400189EDD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B174766D29C56D7400189EDD /* RealmSwift */; };
 		B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55A729C10C9C001DEA41 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 		B11FA9A629C421170043A644 /* ShipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTableViewCell.swift; sourceTree = "<group>"; };
 		B11FA9AB29C422900043A644 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		B11FA9AD29C431FB0043A644 /* CornerRadiousViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiousViewController.swift; sourceTree = "<group>"; };
+		B121674B29C59F5D00488481 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		B19F55A429C10C9C001DEA41 /* Nushift_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nushift_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F55A729C10C9C001DEA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19F55A929C10C9C001DEA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				B11FA9AB29C422900043A644 /* Utility.swift */,
 				B11FA9AD29C431FB0043A644 /* CornerRadiousViewController.swift */,
+				B121674B29C59F5D00488481 /* RealmModel.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				B11FA9A829C421170043A644 /* ShipTableViewCell.swift in Sources */,
 				B19F55AC29C10C9C001DEA41 /* ViewController.swift in Sources */,
 				B19F55A829C10C9C001DEA41 /* AppDelegate.swift in Sources */,
+				B121674C29C59F5D00488481 /* RealmModel.swift in Sources */,
 				B19F55AA29C10C9C001DEA41 /* SceneDelegate.swift in Sources */,
 				B11FA9AE29C431FB0043A644 /* CornerRadiousViewController.swift in Sources */,
 				B11FA9AC29C422900043A644 /* Utility.swift in Sources */,
