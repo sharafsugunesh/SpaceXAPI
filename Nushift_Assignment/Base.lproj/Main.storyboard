@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,40 +17,76 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="N20-9V-Ne1">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KAd-t6-wq2">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ShipTableViewCell" rowHeight="316" id="KAd-t6-wq2" customClass="ShipTableViewCell" customModule="Nushift_Assignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="316"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KAd-t6-wq2" id="xXd-18-er7">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="316"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SmD-ZJ-gNk">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SmD-ZJ-gNk">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="296"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="250" id="eS8-8Y-FlV"/>
+                                                        <constraint firstAttribute="height" constant="316" id="5vq-5n-kFF"/>
                                                     </constraints>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5B-nf-Vso">
-                                                    <rect key="frame" x="0.0" y="171" width="393" height="79"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j5B-nf-Vso" customClass="RoundedCornerView" customModule="Nushift_Assignment" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="259.66666666666669" width="393" height="36.333333333333314"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi6-2n-78M">
+                                                            <rect key="frame" x="20" y="4.9999999999999982" width="353" height="26.333333333333329"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36.333333333333314" id="BQU-Wj-HKT"/>
+                                                        <constraint firstItem="Fi6-2n-78M" firstAttribute="centerY" secondItem="j5B-nf-Vso" secondAttribute="centerY" id="Ehl-yx-iAR"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Fi6-2n-78M" secondAttribute="trailing" constant="20" id="KGc-ng-Aud"/>
+                                                        <constraint firstItem="Fi6-2n-78M" firstAttribute="leading" secondItem="j5B-nf-Vso" secondAttribute="leading" constant="20" id="deR-E5-pN7"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLeft" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="bottomRight" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="SmD-ZJ-gNk" secondAttribute="trailing" id="1XC-Ot-k4T"/>
-                                                <constraint firstAttribute="bottom" secondItem="SmD-ZJ-gNk" secondAttribute="bottom" id="74s-wL-1yV"/>
+                                                <constraint firstItem="j5B-nf-Vso" firstAttribute="bottom" secondItem="SmD-ZJ-gNk" secondAttribute="bottom" id="IyV-XL-MLv"/>
                                                 <constraint firstItem="SmD-ZJ-gNk" firstAttribute="top" secondItem="xXd-18-er7" secondAttribute="top" id="a58-4i-Ju5"/>
                                                 <constraint firstItem="SmD-ZJ-gNk" firstAttribute="leading" secondItem="xXd-18-er7" secondAttribute="leading" id="cJG-KG-G0x"/>
+                                                <constraint firstAttribute="bottom" secondItem="SmD-ZJ-gNk" secondAttribute="bottom" constant="20" id="ofp-4g-nsS"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="j5B-nf-Vso" firstAttribute="leading" secondItem="KAd-t6-wq2" secondAttribute="leading" id="q84-En-YNj"/>
+                                            <constraint firstAttribute="trailing" secondItem="j5B-nf-Vso" secondAttribute="trailing" id="wFm-Ye-C7I"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="shipImageView" destination="SmD-ZJ-gNk" id="LUs-oC-89S"/>
+                                            <outlet property="shipNameLabel" destination="Fi6-2n-78M" id="pw0-QK-5Lr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="gwR-WB-a4T"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="4E6-FM-KbK"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N20-9V-Ne1" secondAttribute="bottom" id="CYp-CR-xQ2"/>
                             <constraint firstItem="N20-9V-Ne1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a33-nh-zyR"/>
@@ -60,6 +95,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FEl-1I-Rae"/>
+                    <connections>
+                        <outlet property="tableView" destination="N20-9V-Ne1" id="Bgn-oh-fqP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,9 +122,4 @@
             <point key="canvasLocation" x="139.69465648854961" y="-17.605633802816904"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

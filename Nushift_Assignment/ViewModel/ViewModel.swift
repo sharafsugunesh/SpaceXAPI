@@ -29,7 +29,7 @@ class HomeViewModel {
         }
     }
     
-    func saveCapsulesToRealm() {
+    func saveShipsDataToRealm() {
         
     }
 }
